@@ -63,7 +63,7 @@
      * @type {String}
      * @default http://localhost/api/rest/v6
      */
-    this.basePath = 'http://localhost/api/rest/v6'.replace(/\/+$/, '');
+    this.basePath = process.env.ADOBE_API_BASE_PATH.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
