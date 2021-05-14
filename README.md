@@ -1,3 +1,8 @@
+### Note
+
+This repo was forked in order to override the base path to the adobe sign api. This is set through `process.env.ADOBE_API_BASE_PATH`
+
+
 # swagger-js-client
 
 SwaggerJsClient - JavaScript client for swagger-js-client
